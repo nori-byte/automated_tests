@@ -12,7 +12,7 @@ cy.visit('https://dev.profteam.su/registration') // предположим, чт
 cy.get('input[autocomplete="username"]').type(login)
 cy.get('input[autocomplete="email"]').type(email)
 cy.get('input[autocomplete="new-password"]').type(password)
-cy.get('input[autocomplete="new"]').type(password)
+cy.get('input[autocomplete="new-password"]').type(password)
 cy.get('button[autocomplete="submit"]').click()
 
 // После регистрации возможно нужно выбрать роль
